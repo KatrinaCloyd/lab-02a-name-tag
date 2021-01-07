@@ -6,17 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 </head>
-<header class="header"><h1>Header Here</h1></header>
+<header class="header"><h1>Create Your Own Nametag</h1></header>
 <hr>
 <body>
-    <div class= "nametag">
+<div class ="wrapper">
+    <div class= "nametag" id="nametag">
         <h1> HELLO </h1>
         <h3>my name is</h3>
-        <h4>Katrina</h4>
+        <h4 id='mainName'>Your Name</h4>
+        <input id= "userName" placeholder="Your Name Here">
+        <button id="changeName">Change Name </button>
     </div>
-    <div class = "side-bar">side bar content
-    </div>
+</div>
+<div class= "colorButtons">
+    <button id="toBlue">Change Nametag to Blue </button>
+    <button id="toGreen">Change Nametag to Green </button>
+    <button id="toRed">Change Nametag Back to Red </button>
+</div>
+<div class= "fontButtons">
+    <button id="changeFont">Change Font to Cursive </button>
+</div>
 </body>
+<script type="module" src="app.js"></script>
 </html>
